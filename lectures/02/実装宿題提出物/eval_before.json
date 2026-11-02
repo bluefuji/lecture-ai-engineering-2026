@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.047619047619047616,
+    "content_rate": 0.047619047619047616,
+    "both_rate": 0.047619047619047616,
+    "seconds": 19.2
+  },
+  "rows": [
+    {
+      "question": "研修期限は何月何日の何時ですか",
+      "raw": "{\"answer\": \"11 月 15 日 18:00\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "受講期限の日付と時刻を教えてください",
+      "raw": "{\"answer\": \"11 月 15 日 18:00\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "研修はいつまでですか",
+      "raw": "{\"answer\": \"11 月 15 日 18:00\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "研修へのアクセス先はどこですか",
+      "raw": "{\"answer\": \"社内学習ポータル\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "必須研修はどこから開始しますか",
+      "raw": "{\"answer\": \"社内学習ポータルの「必須研修」から受講します\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "受講に使うポータル名を教えてください",
+      "raw": "{\"answer\": \"社内学習ポータル\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "何点取れば研修修了ですか",
+      "raw": "{\"answer\": \"80 点\", \"needs_review\": \"true\"}",
+      "format_ok": false,
+      "format_reason": "wrong_type",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "確認テストの合格ラインは何点ですか",
+      "raw": "{\"answer\": \"80\", \"needs_review\": \"false\"}",
+      "format_ok": false,
+      "format_reason": "wrong_type",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "修了に必要な点数を教えてください",
+      "raw": "{\"answer\": \"80 点以上\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "合格するまで受け直せますか",
+      "raw": "{\"answer\": \"確認テストは合格するまで何度でも再受験できます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "テストに落ちた後も挑戦できますか",
+      "raw": "{\"answer\": \"確認テストは合格するまで何度でも再受験できます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "再受験できる回数を教えてください",
+      "raw": "{\"answer\": \"何度でも再受験できます\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "質問はどの部署に送ればよいですか",
+      "raw": "{\"answer\": \"情報システム部\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "受講について質問する窓口はどこですか",
+      "raw": "{\"answer\": \"情報システム部の研修窓口\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "問い合わせを担当する部署はどこですか",
+      "raw": "{\"answer\": \"情報システム部\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "研修の所要時間は何分ですか",
+      "raw": "{\"answer\": \"確認が必要です\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "休職中も受講が必要ですか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "研修動画は倍速再生できますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "受講履歴は上司に公開されますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "教材をダウンロードできますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "期限の延長申請はできますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}

@@ -19,7 +19,7 @@
     }
 　}
 - 自分で学習を実行したか（`executed_training_myself`）：はい / いいえ（実行できた範囲：　）
-いいえ
+はい
 
 - 学習前：`format_rate` =0.09523809523809523　 / `content_rate` =　0.0
 - 学習後：`format_rate` =1.0　 / `content_rate` =0.9047619047619048　

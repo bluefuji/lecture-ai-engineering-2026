@@ -39,7 +39,7 @@ def make_quiz(lecture: int) -> str:
 - やったこと：
 基礎：instructionsにて、「宿題の答えそのものは書かず、考え方のヒントで導く。」->「考え方のヒントで導かずに、一気に問いや宿題の答えそのものを書く。」に変更し、"uv run python -m app.agent --trace "LoRAとQLoRAの違いは？"を実行した。
 
-実装:学習の記録を learning_log/ フォルダに保存するツール save_learning_log を作り、保存の前に利用者の確認を挟み、'uv run python -m app.agent --trace '学習記録として「今日は save_learning_log の承認フローを実装した」と保存して''を実行した。
+実装:AIを利用して、学習の記録を learning_log/ フォルダに保存するツール save_learning_log を作り、保存の前に利用者の確認を挟んだ。その後'uv run python -m app.agent --trace '学習記録として「今日は save_learning_log の承認フローを実装した」と保存して''を実行した。
 
 - 結果：
 # 基礎：
